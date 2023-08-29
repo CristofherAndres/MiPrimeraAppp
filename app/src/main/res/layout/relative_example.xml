@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Elemento 1: TextView centrado en la parte superior del RelativeLayout -->
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to My App"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+    <!-- Elemento 2: ImageView debajo del TextView del encabezado -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/tw"
+        android:layout_below="@id/textViewHeader"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Elemento 3: TextView debajo de la imagen -->
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a sample description."
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Elemento 4: Button debajo del TextView de descripción -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Me!"
+        android:layout_below="@id/textViewDescription"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Elemento 5: TextView centrado en la parte inferior del RelativeLayout -->
+    <TextView
+        android:id="@+id/textViewFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="© 2023 My App. All rights reserved."
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

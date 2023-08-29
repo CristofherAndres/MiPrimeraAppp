@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/cNegro"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:background="@color/black" />
+
+    <View
+        android:id="@+id/cPink"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/pink"
+        android:layout_toEndOf="@id/cNegro"
+        android:layout_above="@id/cNegro"
+        />
+
+    <View
+        android:id="@+id/cGreen2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/green2"
+        android:layout_toStartOf="@id/cNegro"
+        android:layout_above="@id/cNegro"
+        />
+
+    <View
+        android:id="@+id/cGreen3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/green3"
+        android:layout_toEndOf="@id/cNegro"
+        android:layout_below="@id/cNegro"
+        />
+
+    <View
+        android:id="@+id/cGreen4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/green4"
+        android:layout_toStartOf="@id/cNegro"
+        android:layout_below="@id/cNegro"
+        />
+
+    <View
+        android:id="@+id/c1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/green5"
+        />
+
+    <View
+        android:id="@+id/c2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/green5"
+        android:layout_centerHorizontal="true"
+        />
+
+    <View
+        android:id="@+id/c3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/green5"
+        android:layout_alignParentEnd="true"
+        />
+
+    <View
+        android:id="@+id/c4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/green5"
+        android:layout_centerVertical="true"
+        />
+
+    <View
+        android:id="@+id/c5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/green5"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <View
+        android:id="@+id/c6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/green5"
+        android:layout_alignParentBottom="true"
+        />
+
+    <View
+        android:id="@+id/c7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/green5"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+
+    <View
+        android:id="@+id/c8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/green5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        />
+
+</RelativeLayout>
